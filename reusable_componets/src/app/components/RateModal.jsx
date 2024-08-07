@@ -31,7 +31,7 @@ const RateModal =({deactiviate,submit})=>{
       }
     } catch (error) {
       // Handle registration errors
-      console.error('Error registering user:', error.message);
+      console.error('Error submitting:', error.message);
       setErrors({});
     }
   };
