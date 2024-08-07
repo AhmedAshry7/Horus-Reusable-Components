@@ -5,7 +5,7 @@
     width: 100%; 
     align-items: flex-start;
     font-family: 'IBM Plex Sans';
-    color: var(--mainblackcolor);
+    color: #1c1c1c;
   }
 
   .subsectiontitle{
@@ -18,7 +18,7 @@
     margin-top: -10px;
     font-size: 12px;
     font-weight:400;
-    color: var(--graycolor);
+    color: #7c7c7c;
   }
 
   .changecontainer{
@@ -26,26 +26,27 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%
+    align-self: center;
+    width: 60%
   }
 
   .brightbutton{
     width:auto;
-    background-color: var(--buttonbackground);
+    background-color: #FFFFFF;
     border-radius: 30px;
     height: 30px;
     border: none;
     outline-color: transparent;
     outline-style: solid;
-    box-shadow: 0 0 0 1px var(--brightcolor);
-    color: var(--brightcolor);
+    box-shadow: 0 0 0 1px #0079D3;
+    color: #0079D3;
     padding: 4px 16px;
     font-size: 14px;
     font-weight: 700;
   }
 
   .brightbutton:hover{
-    background-color: var(--hoverbrightcolor);
+    background-color: rgba(0, 121, 211, 0.05);
     transition: 0.6s;
     cursor: pointer;
   }

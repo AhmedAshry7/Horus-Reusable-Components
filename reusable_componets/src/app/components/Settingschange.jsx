@@ -29,7 +29,10 @@ const SettingsChange = ({title,description, display,activate}) => {
   return (
     <div className={Styles.smallcontainer}>
       <div className={Styles.changecontainer}>
-        <h3 className={Styles.subsectiontitle}>{title}</h3>
+        <div>
+          <h3 className={Styles.subsectiontitle}>{title}</h3>
+          <p className={Styles.description}>{description}</p>
+        </div>
         <button
           className={Styles.brightbutton}
           onClick={() => {
@@ -39,7 +42,6 @@ const SettingsChange = ({title,description, display,activate}) => {
           {display}
         </button>
       </div>
-      <p className={Styles.description}>{description}</p>
     </div>
   );
 };
